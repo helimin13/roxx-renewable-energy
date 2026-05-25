@@ -112,7 +112,7 @@ export default function Home() {
       role: "Managing Director, Shah Steel Industries, Ahmedabad",
     },
     {
-      quote: "We installed a 10kW hybrid solar system for our organic farm in Jaipur. The power output is extremely consistent, and the net-metering credits are directly adjusted in our winter bills.",
+      quote: "We installed a 10kW hybrid solar system for our organic farm in Jaipur. The power output is extremely consistent, and the net-metering credits are directly adjusted in our winter bi[...]
       author: "Dr. Ananya Sharma",
       role: "Proprietor, Green Meadows Farms, Jaipur",
     },
@@ -168,7 +168,7 @@ export default function Home() {
               
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mt-4">
                 <Link href="/contact" className="w-full sm:w-auto">
-                  <button className="w-full flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-energy-green to-energy-hover text-dark-bg font-extrabold text-sm shadow-xl shadow-energy-green/20 hover:shadow-energy-green/30 hover:scale-[1.02] transition-all group">
+                  <button className="w-full flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-energy-green to-energy-hover text-dark-bg font-extrabold text-sm shad[...]
                     Get Free Consultation
                     <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                   </button>
@@ -183,7 +183,7 @@ export default function Home() {
 
             {/* Right Hero Graphic */}
             <div className="lg:col-span-5 flex justify-center">
-              <div className="relative w-full max-w-[380px] aspect-square rounded-3xl bg-gradient-to-br from-white/5 to-white/[0.02] border border-white/10 flex items-center justify-center shadow-2xl p-6 overflow-hidden">
+              <div className="relative w-full max-w-[380px] aspect-square rounded-3xl bg-gradient-to-br from-white/5 to-white/[0.02] border border-white/10 flex items-center justify-center shadow[...]
                 <div className="absolute inset-0 bg-radial-grid-card pointer-events-none" />
                 
                 {/* Visual animated windmills and solar elements using SVGs */}
@@ -284,7 +284,7 @@ export default function Home() {
                 The ROXX Quality Guarantee
               </h2>
               <p className="text-slate-400 text-sm leading-relaxed">
-                Renewable installations are 25+ year capital investments. We do not cut corners. Our structural engineering, module choices, and grid liaisoning are designed for optimum generation and lightning-safe operations.
+                Renewable installations are 25+ year capital investments. We do not cut corners. Our structural engineering, module choices, and grid liaisoning are designed for optimum generatio[...]
               </p>
               
               <div className="flex flex-col gap-4 mt-2">
@@ -340,7 +340,7 @@ export default function Home() {
               {timelineSteps.map((step, i) => (
                 <div key={step.step} className="flex flex-col gap-4 relative">
                   <div className="flex items-center gap-4">
-                    <div className="w-10 h-10 rounded-xl bg-energy-green/10 border border-energy-green/20 text-energy-green font-display font-black text-sm flex items-center justify-center shadow-lg">
+                    <div className="w-10 h-10 rounded-xl bg-energy-green/10 border border-energy-green/20 text-energy-green font-display font-black text-sm flex items-center justify-center shadow[...]
                       {step.step}
                     </div>
                     {i < 4 && (
@@ -368,7 +368,7 @@ export default function Home() {
                 </h2>
               </div>
               <Link href="/projects">
-                <button className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-white/5 border border-white/10 hover:border-energy-green/30 text-white font-bold text-xs transition-colors group">
+                <button className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-white/5 border border-white/10 hover:border-energy-green/30 text-white font-bold text-xs transition-colors gro[...]
                   View Project Gallery
                   <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                 </button>
@@ -452,8 +452,8 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-[10px] text-slate-500 font-bold uppercase">Direct Phone Support</span>
-                  <a href="tel:+917940001000" className="text-sm font-bold text-white hover:text-energy-green transition-colors">
-                    +91 79 4000 1000
+                  <a href="tel:+919998656592" className="text-sm font-bold text-white hover:text-energy-green transition-colors">
+                    +91 99 9865 6592
                   </a>
                 </div>
               </div>
@@ -471,14 +471,14 @@ export default function Home() {
 
       {/* WHATSAPP FLOATING BUTTON */}
       <a
-        href="https://wa.me/917940001000?text=I%20am%20interested%20in%20Roxx%20Renewable%20Energy%20Solar%20installation"
+        href="https://wa.me/919998656592?text=I%20am%20interested%20in%20Roxx%20Renewable%20Energy%20Solar%20installation"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 left-6 z-40 w-14 h-14 rounded-full bg-emerald-500 flex items-center justify-center shadow-xl shadow-emerald-500/20 hover:shadow-emerald-500/40 hover:scale-105 transition-all border border-emerald-400/25 group"
+        className="fixed bottom-6 left-6 z-40 w-14 h-14 rounded-full bg-emerald-500 flex items-center justify-center shadow-xl shadow-emerald-500/20 hover:shadow-emerald-500/40 hover:scale-105 tr[...]
         aria-label="Contact us on WhatsApp"
       >
         <MessageSquare className="w-6 h-6 text-white stroke-[2.5] fill-white/10" />
-        <span className="absolute left-16 bg-dark-bg/90 border border-white/10 text-white text-[10px] font-bold py-1.5 px-3 rounded-lg shadow-lg opacity-0 translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all pointer-events-none whitespace-nowrap">
+        <span className="absolute left-16 bg-dark-bg/90 border border-white/10 text-white text-[10px] font-bold py-1.5 px-3 rounded-lg shadow-lg opacity-0 translate-x-2 group-hover:opacity-100 gr[...]
           Chat with Energy Expert
         </span>
       </a>
