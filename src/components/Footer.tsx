@@ -107,12 +107,12 @@ export default function Footer() {
                 <MapPin className="w-5 h-5 text-energy-green shrink-0 mt-0.5" />
                 <span>
                   <strong>Corporate HQ:</strong><br />
-                  802, Roxx Eco Tower, SG Highway, Ahmedabad, Gujarat - 380054
+                  115, Shripad Aayansh, Sargasan, Gandhinagar, Gujarat - 382421
                 </span>
               </li>
               <li className="flex gap-3 items-center">
                 <Phone className="w-4.5 h-4.5 text-energy-green shrink-0" />
-                <a href="tel:+917940001000" className="hover:text-white transition-colors">+91 79 4000 1000</a>
+                <a href="tel:+919998656501" className="hover:text-white transition-colors">+91 9998656501</a>
               </li>
               <li className="flex gap-3 items-center">
                 <Mail className="w-4.5 h-4.5 text-energy-green shrink-0" />
