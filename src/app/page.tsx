@@ -112,7 +112,7 @@ export default function Home() {
       role: "Managing Director, Shah Steel Industries, Ahmedabad",
     },
     {
-      quote: "We installed a 10kW hybrid solar system for our organic farm in Jaipur. The power output is extremely consistent, and the net-metering credits are directly adjusted in our winter bi[...]
+      quote: "We installed a 10kW hybrid solar system for our organic farm in Jaipur. The power output is extremely consistent, and the net-metering credits are directly adjusted in our winter bi[...]",
       author: "Dr. Ananya Sharma",
       role: "Proprietor, Green Meadows Farms, Jaipur",
     },
